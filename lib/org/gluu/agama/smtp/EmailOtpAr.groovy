@@ -20,36 +20,7 @@ class EmailOtpAr {
               </td>
             </tr>
 
-            <!-- Main Email Body -->
-            <tr>
-              <td style="width:100%;margin:0;padding:0;">
-                <table role="presentation" dir="rtl" cellspacing="0" cellpadding="0" width="570" align="center" style="background-color:#FFFFFF;margin:0 auto;padding:0;border-radius:4px;">
-                  <tbody>
-                    <tr>
-                      <td style="padding:45px;font-family:'Nunito Sans',Helvetica,Arial,sans-serif;color:#51545E;font-size:16px;line-height:1.625;">
-                        <p dir="rtl">مرحبًا،</p>
-                        <p>لقد تلقّينا طلبًا لإعادة تعيين كلمة المرور لحسابك في Phi Wallet.</p>
-                        <p>للمتابعة، يرجى إدخال رمز التحقق التالي:</p>
-
-                        <div style="text-align:center;margin:30px 0;">
-                          <div style="display:inline-block;background-color:#f5f5f5;color:#AD9269;font-size:40px;font-weight:600;letter-spacing:6px;padding:10px 20px;border-radius:4px;">
-                            """ + otp + """
-                          </div>
-                        </div>
-
-                        <p>إذا لم تطلب هذا الإجراء، يمكنك تجاهل هذه الرسالة بأمان. سيبقى حسابك آمِنًا.</p>
-                        <p>شكرًا لثقتك بنا.</p>
-
-                        <p style="margin-top:30px;">مع التحية،<br>فريق Phi Wallet</p>
-
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </td>
-            </tr>
-
-            <!-- Footer -->
+           
             <tr>
               <td>
                 <table role="presentation" cellspacing="0" cellpadding="0" width="570" align="center" style="margin:0 auto;padding:0;text-align:center;">
